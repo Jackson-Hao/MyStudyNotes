@@ -108,11 +108,15 @@ So the MSE Loss function can be expressed as:
 $$ Loss = J(\mathbf{w}) = \frac{1}{2m} \mathbf{e}^T \mathbf{e} = \frac{1}{2m} (\mathbf{Xw} - \mathbf{y})^T (\mathbf{Xw} - \mathbf{y}) $$
 
 Take a example, in cartesian coordinate system, we have 4 data points: (1,2), (2,3), (3,5), (4,7). So our input feature matrix will have 4 samples and 1+1 features (the extra 1 is constant 1 for bias term). The actual output vector will have 4 samples.
+
 $$ \mathbf{X} = \begin{bmatrix} 1 & 1 \\ 2 & 1 \\ 3 & 1 \\ 4 & 1 \end{bmatrix}$$
+
 If our weight and bias are:
+
 $$ \mathbf{w} = \begin{bmatrix} b \\ w \end{bmatrix} = \begin{bmatrix} 0.5 \\ 1.5 \end{bmatrix} $$
 
 Then the predicted output vector will be:
+
 $$ \hat{\mathbf{y}} = \mathbf{Xw} = \begin{bmatrix} 1 & 1 \\ 2 & 1 \\ 3 & 1 \\ 4 & 1 \end{bmatrix} \begin{bmatrix} 0.5 \\ 1.5 \end{bmatrix} = \begin{bmatrix} 2.0 \\ 2.5 \\ 3.0 \\ 3.5 \end{bmatrix} $$
 
 |Symbol|Meaning|Dimension|Example Value|
