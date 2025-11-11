@@ -1,3 +1,5 @@
+<font face="Times New Roman">
+
 # <center> Linear Regression -- My first Machine Learning Model </center>
 
 <center> Jackson Hao </center>
@@ -17,6 +19,8 @@
     - [Try to express Linear Regression via linear algebra](#try-to-express-linear-regression-via-linear-algebra)
     - [Implement Linear Regression via Python \& Pytorch](#implement-linear-regression-via-python--pytorch)
   - [Conclusion](#conclusion)
+
+---
 
 ## Introduction
 Linear Regression is one of the simplest in machine learning. My first learning model is from here. It is used to predict the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data.
@@ -175,3 +179,5 @@ In this code, our input is expressed as a 2D tensor `X` with shape (n, m), where
 Using gradient descent to optimize the parameters of a linear regression model is a fundamental technique in machine learning. By iteratively updating the weights and bias based on the gradients of the loss function, we can effectively minimize the error between predicted and actual values. This approach not only provides a clear understanding of how linear regression works but also lays the groundwork for more complex models and optimization techniques in the field of machine learning.
 
 > Writen by Jackson Hao, November 7th 2025 Friday, Happy coding! :-)
+> 
+</font>
